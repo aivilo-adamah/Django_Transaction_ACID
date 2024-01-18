@@ -120,30 +120,9 @@ USE_TZ = True
 
 # TWILIO SETTINGS
 
-TWILIO_ACCOUNT_SID = 'ACdef792007be0879cc2c6bd05d265b3c9'
-TWILIO_AUTH_TOKEN = '20878652e063bc3ed4ffbaeb39f452f0'
-TWILIO_PHONE_NUMBER = '+12402582861'
 
 
 
-
-# EMAIL CONFIG
-
-EMAIL_HOST_USER = 'adamaholivia444@gmail.com'
-EMAIL_HOST_PASSWORD = '@Delphine4'
-
-# Paramètres SMTP pour Gmail 
-
-# backend de django indiquant l'utilisation du SMTP
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-#L'adresse du serveur SMTP
-EMAIL_HOST = 'smtp.gmail.com'
-# le port sur lequel le serveur se connecte
-EMAIL_PORT = 587
-#Un booléen indiquant si une connexion sécurisée (TLS) doit être établie avec le serveur SMTP. 
-EMAIL_USE_TLS = True
-#L'adresse e-mail à utiliser comme expéditeur par défaut
-DEFAULT_FROM_EMAIL = 'adamaholivia444@gmail.com'
 
 
 
